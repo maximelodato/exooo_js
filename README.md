@@ -1,36 +1,39 @@
-Projets : JavaScript - Exercices basiques
+# Projets : JavaScript - Exercices basiques
   
 JavaScript - Exercices basiques
 Quelques exercices de base afin de te mettre à JavaScript
 
-1. Introduction
+## 1. Introduction
 Dans ce projet, nous allons te faire pratiquer JavaScript pour que tu maîtrises la syntaxe de base du langage. Ce projet contiendra essentiellement des déclarations de variables, boucles et autres joyeusetés présentées dans la ressource du jour. Le but est de maitriser les bases avant de t'apprendre comment animer ton site en JS. On va commencer léger et tu auras juste à créer une page index.html qui appellera le fichier script.js contenant ton code de la journée.
 
-2. Le projet
+## 2. Le projet
 Pour ce projet, nous allons reprendre des exercices basiques de programmation que tu as déjà effectués pendant tes premières semaines chez THP. Ce sera l'occasion pour toi de voir le progrès que tu as réalisé et le chemin parcouru car ta problématique ne sera plus de résoudre le problème (tu l'as déja fait) mais de passer d'un langage à un autre.
 
-2.1. Hello World
+### 2.1. Hello World
 Qui dit nouveau langage dit "Hello world"
 
-2.1.1. Bonjour
+#### 2.1.1. Bonjour
 Créé un script script_1.js qui affichera "Bonjour, monde !" dans la console. Voici les lignes que tu dois voir dans ta console :
 
 "Bonjour monde"
-2.1.2. Salut
+
+#### 2.1.2. Salut
 Customise le script script_1.js qui te demandera ton prénom avec un prompt. Tu stockeras cette entrée dans une variable et tu afficheras : "Bonjour, prénom !" dans la console.
 
-2.2. Opérations & boucles
-2.2.1 Calculs rapides
+### 2.2. Opérations & boucles
+
+#### 2.2.1 Calculs rapides
 Créé un script script_2.js qui définira la fonction factorielle et qui calculera la factorielle du nombre entré par l'utilisateur. Petit exemple rapide : factorielle(5) = 5*4*3*2*1 et factorielle(10) = 10*9*8*7*6*5*4*3*2*1
 
 Voici ce que dois faire le script :
-
+=
 // Un prompt s'affiche avec la question suivante
 "De quel nombre veux-tu calculer la factorielle ?"
 // Utilisateur rentre un nombre (par ex 4)
 // Dans la console le résultat suivant est affiché
 "Le résultat est : 24"
-2.2.2 Pyramide de Mario
+
+#### 2.2.2 Pyramide de Mario
 Ah la pyramide de Mario du pré-parcours. Que de bons souvenirs. Tu vas écrire un script appelé script_3.js
 
 Voici ce que devra afficher la console :
@@ -42,8 +45,10 @@ Voici ce que devra afficher la console :
   ###
  ####
 #####
-2.3. Analyses de données
-2.3.1. Startup Nation
+
+### 2.3. Analyses de données
+
+#### 2.3.1. Startup Nation
 Tu es en train d'écrire un livre sur les entrepreneurs américains et tu te renseignes sur leurs dates de naissance pour voir si tu ne peux pas identifier un millésime à succès.
 
 Pendant ta recherche tu tombes sur une array contenant des entrepreneurs connus et leurs dates de naissance.
@@ -74,7 +79,8 @@ Filtre dans cette liste les entrepreneurs qui sont nés dans les années 70 ;
 Sors une array qui contient le prénom et le nom des entrepreneurs ;
 Quel âge aurait chaque inventeur aujourd'hui ?
 Trie les entrepreneurs par ordre alphabétique du nom de famille.
-2.3.2. Bibliothécaire
+
+#### 2.3.2. Bibliothécaire
 C'est ton premier jour de stage au CDI du collège du coin. Tu dois aider la bibliothécaire à faire des statistiques dans la base de données de livres du collège et elle te donne ce jeu de données pour que tu maitrises le back-office du programme.
 
 const books = [
@@ -99,10 +105,11 @@ Quel est le livre le moins emprunté ?
 Trouve le livre avec l'ID: 873495 ;
 Supprime le livre avec l'ID: 133712 ;
 Trie les livres par ordre alphabétique (sans celui avec l'ID 133712 car il est supprimé).
-2.4. Creusons-nous la tête
+
+### 2.4. Creusons-nous la tête
 Si tu as finis les exercices précédents, c'est que tu as le niveau pour un peu plus de réflexion !
 
-2.4.1. Code la vie
+#### 2.4.1. Code la vie
 Tu as lu le titre ? Allez, tu as 1h... ok on rigole 😁.
 
 L'un des premiers codes dont tu as entendu parler est probablement le code génétique qui permet de traduire de l'ARN (c'est une copie de notre ADN) en protéines (qui constituent notre corps). Pourquoi ne pas faire un exercice là-dessus ?
@@ -133,7 +140,8 @@ Afin de comparer ton travail avec les autres moussaillons, voici 2 ARN à tradui
 
 CCGUCGUUGCGCUACAGC
 CCUCGCCGGUACUUCUCG
-2.4.2. Acné-Bot
+
+#### 2.4.2. Acné-Bot
 Maintenant on va implémenter une sorte de chat-bot dont on entend (bizarrement) très peu parler en ce moment : le bot adolescent. Après tout, il n'y a aucune raison que les bots ne passent pas, eux aussi, par cette phase ingrate de la vie.
 
 Tu vas coder un script script_7.js qui va fonctionner de la façon suivante : pour s'adresser au bot, un fenêtre de prompt va s'ouvrir. L'utilisateur pourra y saisir sa phrase et le bot répondra via une impression en console.
@@ -145,5 +153,6 @@ Si on lui hurle trop dessus (= la phrase est 100% en majuscules), le bot répond
 Si la phrase que tu prononces contient le mot "Fortnite", le bot répond "on s' fait une partie soum-soum ?" ;
 Si on lui envoie un message vide, le bot répond "t'es en PLS ?" ;
 Pour tout autre phrase que tu lui envoies, le bot répond "balek." ;
-3. Rendu attendu
+
+## 3. Rendu attendu
 Un dossier qui contient un fichier index.html et les scripts demandés. Chaque script contient le code d'un des exercices. Pour tester, il faudra changer l'appel des scripts un par un.
